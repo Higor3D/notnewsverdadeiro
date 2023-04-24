@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E1E1E"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:layout_marginTop="110dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textoCadastro"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:fontFamily="@font/hollywoodone"
+            android:padding="9dp"
+            android:text="CADASTRE-SE"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+
+        <EditText
+            android:id="@+id/CadastrarLoginId"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="70dp"
+            android:backgroundTint="#FC6454"
+            android:fontFamily="@font/hollywoodone"
+            android:hint="Usuário"
+            android:inputType="text"
+            android:maxLength="20"
+            android:textColorHint="#FFFFFF"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/CadastrarEmailId"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#FC6454"
+            android:fontFamily="@font/hollywoodone"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:maxLength="30"
+            android:textColorHint="#FFFFFF"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/CadastrarSenhaId"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="#FC6454"
+            android:fontFamily="@font/hollywoodone"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:textColorHint="#FFFFFF"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/ConfirmarSenhaId"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="60dp"
+            android:backgroundTint="#FC6454"
+            android:fontFamily="@font/hollywoodone"
+            android:hint="Confirmar Senha"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:textColorHint="#FFFFFF"
+            android:textSize="13sp" />
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/hollywoodone"
+            android:padding="20dp"
+            android:text="Deseja receber notícias no seu email diariamente"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+
+
+        <Button
+            android:id="@+id/idBtnCadastrar"
+            android:layout_width="200dp"
+            android:layout_height="65dp"
+            android:background="@drawable/button"
+            android:fontFamily="@font/hollywoodone"
+            android:text="cadastrar"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

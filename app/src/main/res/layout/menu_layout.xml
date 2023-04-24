@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E1E1E"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                app:cardCornerRadius="9dp"
+                android:layout_margin="15dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/img1"
+                    android:scaleType="centerCrop"
+                    />
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text="TESTE PRA CARALHO"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                app:cardCornerRadius="9dp"
+                android:layout_margin="15dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_margin="15dp"
+                app:cardCornerRadius="9dp" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:fontFamily="@font/hollywoodone"
+        android:text="TEMAS DA SEMANA"
+        android:textColor="@color/white"
+        android:textSize="13dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp">
+
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="135dp"
+            android:layout_height="113dp"
+            android:layout_margin="15dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img1" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="135dp"
+            android:layout_height="113dp"
+            android:layout_below="@id/img1"
+            android:layout_margin="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img2" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="135dp"
+            android:layout_height="113dp"
+            android:layout_below="@id/img2"
+            android:layout_margin="15dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img3" />
+
+        <TextView
+            android:id="@+id/txt1id"
+            android:layout_width="250dp"
+            android:layout_height="113dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="14.9dp"
+            android:layout_marginRight="9dp"
+            android:background="@drawable/base_texto"
+            android:fontFamily="@font/hollywoodone"
+            android:padding="10dp"
+            android:text="Cidade inteligente e meio ambiente: uma relação de benefícios mútuos
+            \n\n
+As cidades estão se tornando cada vez mais inteligentes, com o uso de tecnologias inovadoras para melhorar a qualidade de vida dos cidadãos e a eficiência dos serviços públicos.."
+            android:textColor="@color/black"
+            android:textSize="7.5dp" />
+
+        <TextView
+            android:id="@+id/txt2id"
+            android:layout_width="250dp"
+            android:layout_height="113dp"
+            android:layout_below="@id/txt1id"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30.3dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="9dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/base_texto"
+            android:fontFamily="@font/hollywoodone"
+            android:padding="10dp"
+            android:text="Cidade inteligente e meio ambiente: uma relação de benefícios mútuos
+            \n\n
+As cidades estão se tornando cada vez mais inteligentes, com o uso de tecnologias inovadoras para melhorar a qualidade de vida dos cidadãos e a eficiência dos serviços públicos.."
+            android:textColor="@color/black"
+            android:textSize="7.5dp" />
+
+        <TextView
+            android:id="@+id/txt3id"
+            android:layout_width="250dp"
+            android:layout_height="113dp"
+            android:layout_below="@id/txt2id"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="9dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/base_texto"
+            android:fontFamily="@font/hollywoodone"
+            android:padding="10dp"
+            android:text="Cidade inteligente e meio ambiente: uma relação de benefícios mútuos
+            \n\n
+As cidades estão se tornando cada vez mais inteligentes, com o uso de tecnologias inovadoras para melhorar a qualidade de vida dos cidadãos e a eficiência dos serviços públicos.."
+            android:textColor="@color/black"
+            android:textSize="7.5dp" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
